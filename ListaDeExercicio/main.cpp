@@ -12,7 +12,7 @@ int main() {
     cout << "Informe a nota da prova: " << endl;
     cin >> notaProva;
 
-    // 3. Pedir e ler a nota do trabalho
+    // 3. Pedir e ler a nota do trabalho 
     cout << "Informe a nota do Trabalho: " << endl;
     cin >> notaTrabalho;
 
