@@ -32,11 +32,13 @@ int maiorValor(int matriz[10][10]) {
 
     cout << "O maior valor está na posição [" << linhaMaior + 1 << "][" << colunaMaior + 1 << "]" << endl; // Exibe a posição do maior valor encontrado
 
+    cout << "A linha do maior valor é: ";
     for (int j = 0; j < 10; j++) {
         cout << matriz[linhaMaior][j] << " "; // Exibe a linha do maior valor encontrado
     }
     cout << endl;
-
+    
+    cout << "A coluna do maior valor é: ";
     for (int j = 0; j < 10; j++) {
         cout << matriz[j][colunaMaior] << " "; // Exibe a coluna do maior valor encontrado
     }
