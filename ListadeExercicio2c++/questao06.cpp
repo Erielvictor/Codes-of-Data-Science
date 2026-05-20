@@ -1,8 +1,5 @@
 #include <iostream>
 
-#include <cstdlib> // Necessária para rand() e srand()
-#include <ctime>   // Necessária para time()
-
 using namespace std;
 
 bool verificarNumeros(int n) {
@@ -38,23 +35,13 @@ void preencherMatriz(int matriz[10][10]) {
     
 }
 
-int gerarMatrizAleatoria(int matriz[10][10]) {
-    for (int i = 0; i < 10; i++) {
-        for (int j = 0; j < 10; j++) {
-            matriz[i][j] = (rand() % 100) + 1; // Gera um número aleatório entre 1 e 100
-        }
-    }
-}
 
 
 int main() {
-    srand(time(0)); 
-    int numeroaAleatorio = (rand() % 100) + 1; 
 
     int matriz[10][10];
 
-    gerarMatrizAleatoria(matriz);
-    // preencherMatriz(matriz);
+    preencherMatriz(matriz);
 
     int totalImpares = contarImpares(matriz);
     cout << "Total de números ímpares: " << totalImpares << endl;

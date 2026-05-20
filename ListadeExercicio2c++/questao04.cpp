@@ -15,12 +15,12 @@ bool verificarPrimos (int n) {
         return false;
     }
 
-    for (int i = 2; i < n; i++) { // i < n porque um número não pode ser dividido por ele mesmo para ser considerado primo
-        if (n % i == 0 ) { // verifica se existe algum dividor além de 1 e do próprio número
-            return false; // se encontrar um divisor, o número não é primo
+    for (int i = 2; i < n; i++) { 
+        if (n % i == 0 ) { 
+            return false; 
         }
     }
-    return true; // se não encontrar nenhum divisor, o número é primo
+    return true; 
 }
 
 int contarPrimos(int vetor[], int tam) {

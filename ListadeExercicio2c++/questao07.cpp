@@ -5,7 +5,7 @@ using namespace std;
 void somandoMatrizes(int matriz1[2][2], int matriz2[2][2], int resultado[2][2]) {
     for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++) {
-            resultado[i][j] = matriz1[i][j] + matriz2[i][j]; // Soma os elementos correspondentes das duas matrizes
+            resultado[i][j] = matriz1[i][j] + matriz2[i][j]; 
         }
     }
 }
