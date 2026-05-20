@@ -7,7 +7,7 @@ int main() {
     float poup_maria = 1;
     int anos = 0;
 
-    float investimento_joao = 10000;
+    float investimento_joao = 1000;
     float investimento_maria = 100;
 
    while (investimento_joao >= investimento_maria) {
@@ -17,4 +17,5 @@ int main() {
     };
 
     cout << "Serão necessários " << anos << " anos para que o investimento de Maria ultrapasse o de João." << endl;
+    return 0;
 }

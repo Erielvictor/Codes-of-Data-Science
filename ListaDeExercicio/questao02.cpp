@@ -16,5 +16,6 @@ int main() {
         cout << "Fatorial: " << result << endl; 
     }
 
+    return 0;
 }
 

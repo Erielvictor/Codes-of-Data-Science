@@ -25,5 +25,5 @@ int main() {
 
     cout << "A media dos 20 valores e: " << media << endl;
 
-
+    return 0;
 }

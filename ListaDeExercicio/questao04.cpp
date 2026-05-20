@@ -26,5 +26,6 @@ int main() {
     };
 
     cout << "A soma dos valores pares é: " << soma << endl;
-
+    
+    return 0;
 }

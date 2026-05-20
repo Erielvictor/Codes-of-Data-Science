@@ -14,8 +14,7 @@ int main() {
         if (vetor[i] % 2 == 0) {
             cout << "O elemento " << i  << " é par: " << vetor[i] << endl;
             pares ++;
-        }
-        else {
+        } else {
             cout << "O elemento " << i + 1 << " é impar: " << vetor[i] << endl;
         }
     }
